@@ -8,7 +8,7 @@ const RandomnessSlider = ({ growth, updateGrowth }) => (
     info="Minimum size of the blob in percentage. More the smaller more the randomness"
     value={growth}
     min={2}
-    max={9}
+    max={20}
     onChange={updateGrowth}
   />
 );
