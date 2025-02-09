@@ -8,7 +8,7 @@ const ComplexitySlider = ({ edges, updateEdges }) => (
     info="Total nodes to create a shape. Increasing this value will add complexity to the shape"
     value={edges}
     min={3}
-    max={20}
+    max={250}
     onChange={updateEdges}
   />
 );
